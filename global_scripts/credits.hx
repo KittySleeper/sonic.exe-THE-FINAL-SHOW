@@ -44,6 +44,9 @@ case 'confronting-yourself':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\nJustARock\n\nOLD CODE\nJotaMr\nJos9199\nMorenoTheCapuccinoChugger\n\nCOMPOSERS\nSaster\nTheKylevi\nPivelink\n\nCHARTERS\nRickyMania22';
     creds.x = 489.3;
     creds.scale.set(0.6, 0.6);
+case 'fatality':
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nCODE\nJackie.exe\nAvery\nNebula\nCrybit\n\nARTWORK\nAnarakWarriors\n\nMUSIC\nSaster\n\nCHARTING\nniffirg';
+    creds.x = 489.3;
     default:
     creds.text = 'no creds found\n  :nobitches:';
     creds.x = 489.3;
