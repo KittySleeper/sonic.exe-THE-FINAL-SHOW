@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rings.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ring0000" x="0" y="0" width="150" height="151"/>
+	<SubTexture name="ring static0000" x="0" y="151" width="150" height="150"/>
+</TextureAtlas>

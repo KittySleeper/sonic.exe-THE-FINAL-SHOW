@@ -1,0 +1,37 @@
+{
+	"songs": [
+		{
+			"displayName": "too slow",
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
+			"char": "sonicexe",
+			"color": "#463EEA",
+			"name": "too-slow",
+			"bpm": 135
+		},
+		{
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
+			"displayName": "you cant run",
+			"char": "ycr",
+			"bpm": 140,
+			"name": "you-cant-run",
+			"color": "#1D1F91"
+		},
+		{
+			"bpm": 146,
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
+			"displayName": "triple trouble",
+			"char": "tailsbutdeadfunniman",
+			"name": "triple-trouble",
+			"color": "#585050"
+		}
+	]
+}

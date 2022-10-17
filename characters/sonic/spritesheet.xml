@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spritesheet.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="norm sonic down0000" x="0" y="0" width="470" height="694"/>
+	<SubTexture name="norm sonic down0001" x="470" y="0" width="470" height="694"/>
+	<SubTexture name="norm sonic down0002" x="940" y="0" width="470" height="694"/>
+	<SubTexture name="norm sonic down0003" x="1410" y="0" width="470" height="694"/>
+	<SubTexture name="norm sonic idle0000" x="1880" y="0" width="474" height="678"/>
+	<SubTexture name="norm sonic idle0001" x="2354" y="0" width="474" height="678"/>
+	<SubTexture name="norm sonic idle0002" x="2828" y="0" width="474" height="678"/>
+	<SubTexture name="norm sonic idle0003" x="3302" y="0" width="474" height="678"/>
+	<SubTexture name="norm sonic idle0004" x="0" y="694" width="474" height="678"/>
+	<SubTexture name="norm sonic left0000" x="474" y="694" width="495" height="697"/>
+	<SubTexture name="norm sonic left0001" x="969" y="694" width="495" height="697"/>
+	<SubTexture name="norm sonic left0002" x="1464" y="694" width="495" height="697"/>
+	<SubTexture name="norm sonic left0003" x="1959" y="694" width="495" height="697"/>
+	<SubTexture name="norm sonic right0000" x="2454" y="694" width="584" height="648"/>
+	<SubTexture name="norm sonic right0001" x="3038" y="694" width="584" height="648"/>
+	<SubTexture name="norm sonic right0002" x="0" y="1391" width="584" height="648"/>
+	<SubTexture name="norm sonic right0003" x="584" y="1391" width="584" height="648"/>
+	<SubTexture name="norm sonic up0000" x="1168" y="1391" width="439" height="659"/>
+	<SubTexture name="norm sonic up0001" x="1607" y="1391" width="439" height="659"/>
+	<SubTexture name="norm sonic up0002" x="2046" y="1391" width="439" height="659"/>
+	<SubTexture name="norm sonic up0003" x="2485" y="1391" width="439" height="659"/>
+	<SubTexture name="transform...0000" x="2924" y="1391" width="436" height="666"/>
+	<SubTexture name="transform...0001" x="3360" y="1391" width="436" height="666"/>
+	<SubTexture name="transform...0002" x="0" y="2057" width="436" height="666"/>
+	<SubTexture name="transform...0003" x="436" y="2057" width="436" height="666"/>
+	<SubTexture name="transform...0004" x="872" y="2057" width="436" height="666"/>
+	<SubTexture name="transform...0005" x="1308" y="2057" width="436" height="666"/>
+	<SubTexture name="transform...0006" x="1744" y="2057" width="436" height="666"/>
+	<SubTexture name="transform...0007" x="2180" y="2057" width="436" height="666"/>
+	<SubTexture name="transform...0008" x="2616" y="2057" width="436" height="666"/>
+	<SubTexture name="transform...0009" x="3052" y="2057" width="436" height="666"/>
+	<SubTexture name="transform...0010" x="3488" y="2057" width="436" height="666"/>
+</TextureAtlas>
