@@ -1,37 +1,48 @@
 {
 	"songs": [
 		{
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
 			"displayName": "too slow",
-			"difficulties": [
-				"Hard",
-				"Encore"
-			],
 			"char": "sonicexe",
-			"color": "#463EEA",
+			"bpm": 135,
 			"name": "too-slow",
-			"bpm": 135
+			"color": "#463EEA"
 		},
 		{
-			"difficulties": [
-				"Hard",
-				"Encore"
-			],
 			"displayName": "you cant run",
-			"char": "ycr",
-			"bpm": 140,
-			"name": "you-cant-run",
-			"color": "#1D1F91"
-		},
-		{
-			"bpm": 146,
 			"difficulties": [
 				"Hard",
 				"Encore"
 			],
+			"char": "ycr",
+			"color": "#1D1F91",
+			"name": "you-cant-run",
+			"bpm": 140
+		},
+		{
 			"displayName": "triple trouble",
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
 			"char": "tailsbutdeadfunniman",
+			"color": "#585050",
 			"name": "triple-trouble",
-			"color": "#585050"
+			"bpm": 146
+		},
+		{
+			"bpm": 155,
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
+			"displayName": null,
+			"char": "majinfunniman",
+			"name": "endless",
+			"color": "#2B01E9"
 		}
 	]
 }

@@ -22,11 +22,18 @@
 			"name": "you-cant-run"
 		},
 		{
+			"scripts": [],
+			"difficulties": [],
 			"end_cutscene": null,
 			"cutscene": null,
-			"difficulties": [],
-			"scripts": [],
 			"name": "triple-trouble"
+		},
+		{
+			"scripts": [],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "endless"
 		}
 	]
 }
