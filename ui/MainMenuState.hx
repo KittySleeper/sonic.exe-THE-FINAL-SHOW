@@ -1,4 +1,3 @@
-// funny
 var current:Int = 0;
 var menuI:FlxTypedGroup<FlxSprite>;
 var selectedSomethin:Bool = false;
@@ -104,8 +103,10 @@ function update(elapsed) {
 					FlxG.switchState(new FreeplayState());
 				case 3: // options
 					FlxG.switchState(new options.screens.OptionMain());
+                case 4: // options
+                    FlxG.switchState(new ModState("SoundTestState", mod));
 				default:
-					FlxG.switchState(new FreeplayState());
+					FlxG.switchState(new MainMenuState());
                     trace('this is unfinnished');
 			}
 		}
