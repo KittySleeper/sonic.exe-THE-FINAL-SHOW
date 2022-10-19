@@ -109,6 +109,7 @@ function update(elapsed) {
 					FlxG.switchState(new MainMenuState());
                     trace('this is unfinnished');
 			}
+            removeOption('Donate');
 		}
 	}
 }

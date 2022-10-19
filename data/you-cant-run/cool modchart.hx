@@ -1,10 +1,12 @@
 import flixel.text.FlxTextBorderStyle;
+import flixel.text.FlxText;
 
 var sonic_pixel_lol:Character = null;
 var bf_pixel_lol:Character = null;
 var ange_boi:Character = null;
 var the_original_place:FlxSprite = null;
 var staticy_static:FlxSprite = null;
+var scoreTxtPixel:FlxText = new FlxText(3, 589);//man i realy needed that .0001
 
 function createPost(){
             the_original_place = new FlxSprite(0, 0).loadGraphic(Paths.image('stages/round two forest/GreenHill'));
@@ -40,11 +42,14 @@ function createPost(){
             staticy_static.cameras = [PlayState.camHUD];
             staticy_static.visible = false;
             add(staticy_static);
+
+            scoreTxtPixel.setFormat("SoundTestFont.ttf", Std.int(engineSettings.scoreTextSize) + 4);
+            scoreTxtPixel.visible = false;
+            scoreTxtPixel.cameras = [PlayState.camHUD];
+            add(scoreTxtPixel);
 }
 function update() {
-    if(curStep > 528 && curStep < 784){
-    PlayState.scoreTxt.text = 'Score:' + PlayState.songScore + '\nMisses:' + PlayState.misses + '\nTime:' + engineSettings.timerSongNam;
-    }
+    scoreTxtPixel.text = 'Score:' + PlayState.songScore + '\nMisses:' + PlayState.misses + '\nTime:' + engineSettings.timerSongNam;
 
     switch(curStep){
         case 528:
@@ -53,31 +58,28 @@ function update() {
             the_original_place.visible = true;
             sonic_pixel_lol.visible = true;
             bf_pixel_lol.visible = true;
+            PlayState.dad.visible = false;
 
             PlayState.iconP2.changeCharacter("pixelsonicbutexe");
-
             PlayState.iconP1.changeCharacter("bfpixelbutexe");
             staticy_static.visible = true;
             FlxG.sound.play(Paths.sound('staticsoundgobrr'));
             //ohh hey the score text now does the funni
-            PlayState.scoreTxt.x -= 36.3;
-            PlayState.scoreTxt.y -= 3.1;
-            PlayState.scoreTxt.setFormat("SoundTestFont.ttf", Std.int(engineSettings.scoreTextSize) + 10);
+            scoreTxtPixel.visible = true;
+            PlayState.scoreTxt.visible = false;
         case 530:
             staticy_static.visible = false;
         case 784:
             the_original_place.visible = false;
             sonic_pixel_lol.visible = false;
             bf_pixel_lol.visible = false;
-            PlayState.dad.visible = false;
             PlayState.iconP1.changeCharacter("bf", "Friday Night Funkin'");
             PlayState.iconP2.changeCharacter("ycr-mad");
             ange_boi.visible = true;
             staticy_static.visible = true;
             FlxG.sound.play(Paths.sound('staticsoundgobrr'));
-            scoreTxt.setFormat(Paths.font("vcr.ttf"), Std.int(engineSettings.scoreTextSize), 0xFFf0f2f5, 'RIGHT', FlxTextBorderStyle.OUTLINE,0xFF010101);
-            PlayState.scoreTxt.x += 36.3;
-            PlayState.scoreTxt.y += 3.1;
+            scoreTxtPixel.visible = false;
+            PlayState.scoreTxt.visible = true;
         case 786:
             staticy_static.visible = false;
         case 790://for people with lag cuz i alwas get a lag spike after the pixel part
