@@ -27,6 +27,6 @@
 
     function onMiss() {
     trace("lol satic momen");
-    PlayState.health -= 0.4;
+    PlayState.health -= 0.05;
     PlayState.misses += 1;
     }

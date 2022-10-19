@@ -1,3 +1,5 @@
+import flixel.text.FlxTextBorderStyle;
+
 var sonic_pixel_lol:Character = null;
 var bf_pixel_lol:Character = null;
 var ange_boi:Character = null;
@@ -40,6 +42,10 @@ function createPost(){
             add(staticy_static);
 }
 function update() {
+    if(curStep > 528 && curStep < 784){
+    PlayState.scoreTxt.text = 'Score:' + PlayState.songScore + '\nMisses:' + PlayState.misses + '\nTime:' + engineSettings.timerSongNam;
+    }
+
     switch(curStep){
         case 528:
             trace("pixel...");
@@ -53,6 +59,10 @@ function update() {
             PlayState.iconP1.changeCharacter("bfpixelbutexe");
             staticy_static.visible = true;
             FlxG.sound.play(Paths.sound('staticsoundgobrr'));
+            //ohh hey the score text now does the funni
+            PlayState.scoreTxt.x -= 36.3;
+            PlayState.scoreTxt.y -= 3.1;
+            PlayState.scoreTxt.setFormat("SoundTestFont.ttf", Std.int(engineSettings.scoreTextSize) + 10);
         case 530:
             staticy_static.visible = false;
         case 784:
@@ -65,9 +75,16 @@ function update() {
             ange_boi.visible = true;
             staticy_static.visible = true;
             FlxG.sound.play(Paths.sound('staticsoundgobrr'));
+            scoreTxt.setFormat(Paths.font("vcr.ttf"), Std.int(engineSettings.scoreTextSize), 0xFFf0f2f5, 'RIGHT', FlxTextBorderStyle.OUTLINE,0xFF010101);
+            PlayState.scoreTxt.x += 36.3;
+            PlayState.scoreTxt.y += 3.1;
         case 786:
             staticy_static.visible = false;
         case 790://for people with lag cuz i alwas get a lag spike after the pixel part
+            staticy_static.visible = false;
+        case 800://for people with lag cuz i alwas get a lag spike after the pixel part
+            staticy_static.visible = false;
+        case 810://for people with lag cuz i alwas get a lag spike after the pixel part
             staticy_static.visible = false;
     }
 }
