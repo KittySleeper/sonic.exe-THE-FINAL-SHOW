@@ -4,7 +4,7 @@ var funni_bar = new FlxSprite(0, 0).makeGraphic(2111, 400, 0xFF010101);
 var another_funni_bar = new FlxSprite(0, 0).makeGraphic(2111, 230, 0xFF010101);
 var textThing:FlxText = new FlxText(494.0001, 832);//man i realy needed that .0001
 
-function createInFront(){
+function createPost(){
     funni_bar.screenCenter();
 	funni_bar.y = -170;
     funni_bar.alpha = 0.00001;

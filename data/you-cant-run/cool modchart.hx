@@ -27,6 +27,17 @@ function createPost(){
             dads.push(ange_boi);
             ange_boi.visible = false;
             add(ange_boi);
+
+            staticy_static = new FlxSprite();
+            staticy_static.frames = Paths.getSparrowAtlas('events/Static');
+            staticy_static.animation.addByPrefix('staticlol', 'Static', 23);
+            staticy_static.animation.play('staticlol', true);
+            staticy_static.screenCenter();
+            staticy_static.antialiasing = true;
+            staticy_static.scale.set(3, 3);
+            staticy_static.cameras = [PlayState.camHUD];
+            staticy_static.visible = false;
+            add(staticy_static);
 }
 function update() {
     switch(curStep){
@@ -40,14 +51,24 @@ function update() {
             PlayState.iconP2.changeCharacter("pixelsonicbutexe");
 
             PlayState.iconP1.changeCharacter("bfpixelbutexe");
+            staticy_static.visible = true;
+            FlxG.sound.play(Paths.sound('staticsoundgobrr'));
+        case 530:
+            staticy_static.visible = false;
         case 784:
             the_original_place.visible = false;
             sonic_pixel_lol.visible = false;
             bf_pixel_lol.visible = false;
             PlayState.dad.visible = false;
-            PlayState.iconP2.changeCharacter("bf");
+            PlayState.iconP1.changeCharacter("bf", "Friday Night Funkin'");
             PlayState.iconP2.changeCharacter("ycr-mad");
             ange_boi.visible = true;
+            staticy_static.visible = true;
+            FlxG.sound.play(Paths.sound('staticsoundgobrr'));
+        case 786:
+            staticy_static.visible = false;
+        case 790://for people with lag cuz i alwas get a lag spike after the pixel part
+            staticy_static.visible = false;
     }
 }
 function onDadHit(){
