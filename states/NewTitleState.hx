@@ -47,7 +47,7 @@ function create() {
     titletxtspr = new FlxSprite(0, 0);
     titletxtspr.frames = Paths.getSparrowAtlas('menu/titlestate/titleEnterNEW');
     titletxtspr.animation.addByPrefix('idle', "Press Enter to Begin instance 1", 24);
-    titletxtspr.animation.addByPrefix('press', "ENTER PRESSED instance 1", 24, false);
+    titletxtspr.animation.addByPrefix('press', "ENTER PRESSED instance 1", 19, false);
     titletxtspr.antialiasing = true;
     titletxtspr.animation.play('idle');
     titletxtspr.updateHitbox();
@@ -57,7 +57,7 @@ function create() {
     var mFolder = Paths_.modsPath;
     
     var path = Paths.video('coolintro', mFolder);
-    trace(path);
+    trace(path + " has been loaded");
     if (!Assets.exists(path)) {
         trace("Video not found.");
         return;
@@ -68,6 +68,8 @@ function create() {
     videoSprite = MP4Video.playMP4(Assets.getPath(path),
         function() {
             remove(videoSprite);
+            FlxG.sound.play(Paths.sound('hehehawhaw but more hehehawhaw'));
+            FlxG.camera.flash(0xFFedf5ef, 2.4);
             FlxG.sound.playMusic(Paths.music('spookysounds'));
         },
         // If midsong.
@@ -84,5 +86,6 @@ function update() {
 
 function EnterSelected() {
     titletxtspr.animation.play('press');
+    FlxG.sound.play(Paths.sound('hehehawhaw'));
     FlxG.switchState(new MainMenuState());
 }
