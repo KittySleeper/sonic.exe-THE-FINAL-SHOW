@@ -13,24 +13,6 @@
 	"anims": [
 		{
 			"indices": null,
-			"x": 0,
-			"y": 0,
-			"anim": "mad_idle",
-			"loop": false,
-			"name": "idle",
-			"framerate": 24
-		},
-		{
-			"indices": null,
-			"x": 8,
-			"y": -74,
-			"anim": "mad_right",
-			"loop": false,
-			"name": "singRIGHT",
-			"framerate": 24
-		},
-		{
-			"indices": null,
 			"x": 40,
 			"y": -106,
 			"anim": "mad_down",
@@ -40,11 +22,11 @@
 		},
 		{
 			"indices": null,
-			"x": 313,
-			"y": -82,
-			"anim": "scream",
+			"x": 4,
+			"y": 156,
+			"anim": "mad_up",
 			"loop": false,
-			"name": "singUP-alt",
+			"name": "singUP",
 			"framerate": 24
 		},
 		{
@@ -58,6 +40,33 @@
 		},
 		{
 			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "mad_idle",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 7,
+			"y": -117,
+			"anim": "laugh_Instance",
+			"loop": false,
+			"name": "singDOWN-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 8,
+			"y": -74,
+			"anim": "mad_right",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
 			"x": 116,
 			"y": -82,
 			"anim": "mad_left",
@@ -67,12 +76,12 @@
 		},
 		{
 			"indices": null,
-			"x": 4,
-			"y": 156,
-			"anim": "mad_up",
-			"loop": false,
-			"name": "singUP",
-			"framerate": 24
+			"x": 284,
+			"y": -71,
+			"anim": "scream",
+			"loop": true,
+			"name": "scream",
+			"framerate": 19
 		}
 	],
 	"danceSteps": [

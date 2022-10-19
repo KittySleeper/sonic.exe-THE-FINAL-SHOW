@@ -2,8 +2,8 @@
 	"arrowColors": [
 		"#583AB6",
 		"#583AB6",
-		"#9005FA",
-		"#9005FA"
+		"#AF05FA",
+		"#AF05FA"
 	],
 	"camOffset": {
 		"x": 0,
@@ -27,11 +27,11 @@
 		},
 		{
 			"indices": null,
-			"x": 50,
-			"y": -88,
-			"anim": "normal_down",
+			"x": 20,
+			"y": -140,
+			"anim": "laugh_Instance",
 			"loop": false,
-			"name": "singDOWN",
+			"name": "singDOWN-alt",
 			"framerate": 24
 		},
 		{
@@ -45,21 +45,21 @@
 		},
 		{
 			"indices": null,
-			"x": 20,
-			"y": -140,
-			"anim": "laugh_Instance",
+			"x": 50,
+			"y": -88,
+			"anim": "normal_down",
 			"loop": false,
-			"name": "singDOWN-alt",
+			"name": "singDOWN",
 			"framerate": 24
 		},
 		{
 			"indices": null,
-			"x": 250,
-			"y": -68,
-			"anim": "scream",
-			"loop": true,
-			"name": "singUP-alt",
-			"framerate": 19
+			"x": 110,
+			"y": -102,
+			"anim": "normal_left",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
 		},
 		{
 			"indices": null,
@@ -72,12 +72,12 @@
 		},
 		{
 			"indices": null,
-			"x": 110,
-			"y": -102,
-			"anim": "normal_left",
-			"loop": false,
-			"name": "singLEFT",
-			"framerate": 24
+			"x": 297,
+			"y": -85,
+			"anim": "scream",
+			"loop": true,
+			"name": "scream",
+			"framerate": 19
 		}
 	],
 	"danceSteps": [

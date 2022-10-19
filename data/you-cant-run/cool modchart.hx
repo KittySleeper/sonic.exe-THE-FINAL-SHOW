@@ -32,6 +32,11 @@ function createPost(){
             ange_boi.visible = false;
             add(ange_boi);
 
+            scoreTxtPixel.setFormat(Paths.font("SoundTestFont.ttf"), Std.int(engineSettings.scoreTextSize) + 4);
+            scoreTxtPixel.visible = false;
+            scoreTxtPixel.cameras = [PlayState.camHUD];
+            add(scoreTxtPixel);
+
             staticy_static = new FlxSprite();
             staticy_static.frames = Paths.getSparrowAtlas('events/Static');
             staticy_static.animation.addByPrefix('staticlol', 'Static', 23);
@@ -42,16 +47,16 @@ function createPost(){
             staticy_static.cameras = [PlayState.camHUD];
             staticy_static.visible = false;
             add(staticy_static);
-
-            scoreTxtPixel.setFormat("SoundTestFont.ttf", Std.int(engineSettings.scoreTextSize) + 4);
-            scoreTxtPixel.visible = false;
-            scoreTxtPixel.cameras = [PlayState.camHUD];
-            add(scoreTxtPixel);
 }
 function update() {
     scoreTxtPixel.text = 'Score:' + PlayState.songScore + '\nMisses:' + PlayState.misses + '\nTime:' + engineSettings.timerSongNam;
 
     switch(curStep){
+        case 520, 1159:
+            PlayState.dad.playAnim('scream');
+            ange_boi.playAnim('scream');
+        case 1415:
+            ange_boi.playAnim('JUST DIE U STONOPID DODO FARD');
         case 528:
             trace("pixel...");
 
