@@ -22,6 +22,11 @@ function createPost(){
             boyfriends.push(bf_pixel_lol);
             bf_pixel_lol.visible = false;
             add(bf_pixel_lol);
+
+            ange_boi = new Character(PlayState.dad.x, PlayState.dad.y - 32, mod + ":" + "ycr-mad");
+            dads.push(ange_boi);
+            ange_boi.visible = false;
+            add(ange_boi);
 }
 function update() {
     switch(curStep){
@@ -41,11 +46,8 @@ function update() {
             bf_pixel_lol.visible = false;
             PlayState.dad.visible = false;
             PlayState.iconP2.changeCharacter("bf");
-
-            ange_boi = new Character(PlayState.dad.x, PlayState.dad.y - 32, mod + ":" + "ycr-mad");
             PlayState.iconP2.changeCharacter("ycr-mad");
-            dads.push(ange_boi);
-            add(ange_boi);
+            ange_boi.visible = true;
     }
 }
 function onDadHit(){
