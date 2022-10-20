@@ -1,6 +1,6 @@
 sonic.exe yoshi port
 
-i am just making this for fun realy
+i am just making this for fun really
 
 main menu:
 ![main menu](https://raw.githubusercontent.com/504brandon/sonic.exe-yoshi-engine-port-project/66e271944ff511f3f4902441c3baa8276262b94c/readme%20samples/menu.png)
