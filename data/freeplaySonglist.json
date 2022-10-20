@@ -1,59 +1,69 @@
 {
 	"songs": [
 		{
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
 			"displayName": "too slow",
-			"difficulties": [
-				"Hard",
-				"Encore"
-			],
 			"char": "sonicexe",
-			"color": "#463EEA",
+			"bpm": 135,
 			"name": "too-slow",
-			"bpm": 135
+			"color": "#463EEA"
 		},
 		{
-			"difficulties": [
-				"Hard",
-				"Encore"
-			],
 			"displayName": "you cant run",
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
 			"char": "ycr",
-			"bpm": 140,
+			"color": "#1D1F91",
 			"name": "you-cant-run",
-			"color": "#1D1F91"
+			"bpm": 140
 		},
 		{
-			"difficulties": [
-				"Hard",
-				"Encore"
-			],
 			"displayName": "triple trouble",
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
 			"char": "tailsbutdeadfunniman",
-			"bpm": 146,
+			"color": "#585050",
 			"name": "triple-trouble",
-			"color": "#585050"
+			"bpm": 146
 		},
 		{
-			"displayName": null,
 			"difficulties": [
 				"Hard",
 				"Encore"
 			],
+			"displayName": null,
 			"char": "majinfunniman",
-			"color": "#2B01E9",
+			"bpm": 155,
 			"name": "endless",
-			"bpm": 155
+			"color": "#2B01E9"
 		},
 		{
-			"bpm": 176,
+			"displayName": null,
 			"difficulties": [
 				"Hard",
 				"Encore"
 			],
-			"displayName": null,
 			"char": "the-guy-from-minecraft",
+			"color": "#302727",
 			"name": "prey",
-			"color": "#302727"
+			"bpm": 176
+		},
+		{
+			"difficulties": [
+				"Hard"
+			],
+			"displayName": null,
+			"char": "sunk-boy-me-bob-ceareal-dude-funni-man",
+			"bpm": 180,
+			"name": "milk",
+			"color": "#174996"
 		}
 	]
 }

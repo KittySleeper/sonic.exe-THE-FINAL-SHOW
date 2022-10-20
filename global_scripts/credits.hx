@@ -22,20 +22,25 @@ function onSongStart() {
 FlxTween.tween(box, {y: 0}, Std.parseFloat(0.6), {ease: FlxEase.linear});
 FlxTween.tween(creds, {y: 0}, Std.parseFloat(0.6), {ease: FlxEase.linear});
 switch (PlayState.SONG.song.toLowerCase()){
-    case 'too-slow':
-    creds.text = 'Credits\n\nPorters\n[504]brandon\n\nOG CODE\nJackie.exe\n\nARTWORK\nCherribun\nComgaming\n\nMUSIC\nMarStarBro\nSaster\n\nCHARTING\nWilde';
+case 'too-slow':
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOG CODE\nJackie.exe\n\nARTWORK\nCherribun\nComgaming\n\nMUSIC\nMarStarBro\nSaster\n\nCHARTING\nWilde';
     creds.x = 510.3;
-    case 'too-slow-encore':
-    creds.text = 'Credits\n\nPorters\n[504]brandon\n\nComposers\nStarMoBro\nSaster';
+case 'too-slow-encore':
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nCOMPOSERS\nStarMoBro\nSaster';
     creds.x = 502.3;
-    case 'you-cant-run':
-    creds.text = 'Credits\n\nPorters\n[504]brandon\n\nComposers\nStarMoBro\nsaster';
+case 'you-cant-run':
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nCOMPOSERS\nStarMoBro\nsaster';
     creds.x = 502.3;
-    case 'endless-encore':
-    creds.text = 'Credits\nPorters\n[504]brandon\n\nCharters\nGodzillaGang\n\nComposers\nStarMoBro';
+case 'endless-encore':
+    creds.text = 'Credits\nPORTERS\n[504]brandon\n\nCHARTING\nGodzillaGang\n\nCOMPOSERS\nStarMoBro';
     creds.x = 502.3;
-    case 'prey':
+case 'prey':
     creds.text = 'you shouldent be able to see this...';
+case 'milk':
+    creds.text = 'CREDITS\n\nPORTERS\n[504]brandon\n\nOLD CODE\nJackie.exe\n\nCHARTING\nNiffirg\n\nARTWORK\nComgaming_Nz\nStankfield\n\nMUSIC\nSqueak';
+    creds.x = 521.8;
+	FlxG.resizeGame(960, 720);
+	FlxG.resizeWindow(960, 720);
     default:
     creds.text = 'no creds found\n  :nobitches:';
     creds.x = 489.3;

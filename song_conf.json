@@ -48,6 +48,13 @@
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "prey"
+		},
+		{
+			"scripts": [],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "milk"
 		}
 	]
 }
