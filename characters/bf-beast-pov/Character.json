@@ -2,7 +2,7 @@
 	"arrowColors": null,
 	"camOffset": {
 		"x": -270,
-		"y": -140
+		"y": -420
 	},
 	"globalOffset": {
 		"x": -20,
@@ -13,7 +13,7 @@
 	"anims": [
 		{
 			"indices": null,
-			"x": 47,
+			"x": -27,
 			"y": 99,
 			"anim": "Right_Miss_Flip",
 			"loop": false,
@@ -22,8 +22,8 @@
 		},
 		{
 			"indices": null,
-			"x": -37,
-			"y": -11,
+			"x": 14,
+			"y": -13,
 			"anim": "Sing_Down_Flip",
 			"loop": false,
 			"name": "singDOWN",
@@ -31,8 +31,8 @@
 		},
 		{
 			"indices": null,
-			"x": -93,
-			"y": 72,
+			"x": 71,
+			"y": 71,
 			"anim": "Left_Miss_Flip",
 			"loop": false,
 			"name": "singLEFTmiss",
@@ -40,8 +40,8 @@
 		},
 		{
 			"indices": null,
-			"x": 19,
-			"y": 55,
+			"x": -61,
+			"y": 51,
 			"anim": "Sing_Up_Flip",
 			"loop": false,
 			"name": "singUP",
@@ -58,8 +58,8 @@
 		},
 		{
 			"indices": null,
-			"x": 29,
-			"y": 15,
+			"x": -22,
+			"y": 12,
 			"anim": "Sing_Right_Flip",
 			"loop": false,
 			"name": "singRIGHT",
@@ -67,8 +67,8 @@
 		},
 		{
 			"indices": null,
-			"x": -32,
-			"y": 1,
+			"x": 29,
+			"y": -2,
 			"anim": "Down_Miss_Flip",
 			"loop": false,
 			"name": "singDOWNmiss",
@@ -76,8 +76,8 @@
 		},
 		{
 			"indices": null,
-			"x": -77,
-			"y": -12,
+			"x": 51,
+			"y": -10,
 			"anim": "Sing_Left_Flip",
 			"loop": false,
 			"name": "singLEFT",
@@ -85,8 +85,8 @@
 		},
 		{
 			"indices": null,
-			"x": 16,
-			"y": 143,
+			"x": -74,
+			"y": 144,
 			"anim": "Up_Miss_Flip",
 			"loop": false,
 			"name": "singUPmiss",

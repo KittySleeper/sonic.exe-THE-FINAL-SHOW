@@ -11,8 +11,8 @@ function createPost() {
 	cpuStrums.members[4].x -= 65;
 	cpuStrums.members[3].x -= 65;
 
-	funnizenopinzbg = new FlxSprite(0, 0).loadGraphic(Paths.image("Phase3/NewTitleMenuBg"));
-	funnizenopinzbg.frames = Paths.getSparrowAtlas('NewTitleMenuBG');
+	funnizenopinzbg = new FlxSprite(0, 0);
+	funnizenopinzbg.frames = Paths.getSparrowAtlas('menu/titlestate/NewTitleMenubg');
 	funnizenopinzbg.animation.addByPrefix('idle', "TitleMenuSSBG instance 1", 24);
 	funnizenopinzbg.animation.play('idle');
 	funnizenopinzbg.screenCenter();
