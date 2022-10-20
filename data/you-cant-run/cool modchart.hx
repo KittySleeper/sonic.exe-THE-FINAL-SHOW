@@ -74,6 +74,8 @@ function update() {
             PlayState.scoreTxt.visible = false;
         case 530:
             staticy_static.visible = false;
+            FlxG.resizeGame(960, 720);
+            FlxG.resizeWindow(960, 720);
         case 784:
             the_original_place.visible = false;
             sonic_pixel_lol.visible = false;
@@ -85,14 +87,24 @@ function update() {
             FlxG.sound.play(Paths.sound('staticsoundgobrr'));
             scoreTxtPixel.visible = false;
             PlayState.scoreTxt.visible = true;
+            FlxG.resizeGame(1280, 720);
+            FlxG.resizeWindow(1280, 720);
         case 786:
             staticy_static.visible = false;
+            FlxG.resizeGame(1280, 720);
+            FlxG.resizeWindow(1280, 720);
         case 790://for people with lag cuz i alwas get a lag spike after the pixel part
             staticy_static.visible = false;
+            FlxG.resizeGame(1280, 720);
+            FlxG.resizeWindow(1280, 720);
         case 800://for people with lag cuz i alwas get a lag spike after the pixel part
             staticy_static.visible = false;
+            FlxG.resizeGame(1280, 720);
+            FlxG.resizeWindow(1280, 720);
         case 810://for people with lag cuz i alwas get a lag spike after the pixel part
             staticy_static.visible = false;
+            FlxG.resizeGame(1280, 720);
+            FlxG.resizeWindow(1280, 720);
     }
 }
 function onDadHit(){

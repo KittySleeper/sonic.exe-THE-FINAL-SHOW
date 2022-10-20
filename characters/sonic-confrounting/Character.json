@@ -1,0 +1,111 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": 90,
+		"y": 10
+	},
+	"globalOffset": {
+		"x": 450,
+		"y": 20
+	},
+	"healthbarColor": "#2F67E2",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "sonic death loop",
+			"loop": true,
+			"name": "deathLoop",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -5,
+			"y": 0,
+			"anim": "sonic Down",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -16,
+			"y": -11,
+			"anim": "sonic Up",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "sonic death confirm",
+			"loop": false,
+			"name": "deathConfirm",
+			"framerate": 24
+		},
+		{
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				1,
+				0
+			],
+			"x": 0,
+			"y": 0,
+			"anim": "sonic Idle",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "sonic dies",
+			"loop": false,
+			"name": "firstDeath",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "sonic Right",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -9,
+			"y": 0,
+			"anim": "sonic Left",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1
+}

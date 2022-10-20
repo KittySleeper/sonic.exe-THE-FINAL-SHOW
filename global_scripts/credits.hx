@@ -37,10 +37,8 @@ case 'endless-encore':
 case 'prey':
     creds.text = 'you shouldent be able to see this...';
 case 'milk':
-    creds.text = 'CREDITS\n\nPORTERS\n[504]brandon\n\nOLD CODE\nJackie.exe\n\nCHARTING\nNiffirg\n\nARTWORK\nComgaming_Nz\nStankfield\n\nMUSIC\nSqueak';
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOLD CODE\nJackie.exe\n\nCHARTING\nNiffirg\n\nARTWORK\nComgaming_Nz\nStankfield\n\nMUSIC\nSqueak';
     creds.x = 521.8;
-	FlxG.resizeGame(960, 720);
-	FlxG.resizeWindow(960, 720);
     default:
     creds.text = 'no creds found\n  :nobitches:';
     creds.x = 489.3;
