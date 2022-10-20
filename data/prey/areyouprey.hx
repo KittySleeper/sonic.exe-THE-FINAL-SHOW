@@ -34,6 +34,12 @@ function update() {
             FlxTween.tween(dad, {angle: 180}, Std.parseFloat(0.9), {ease: FlxEase.linear});
         case 1544:
             dad.alpha = 0;
-
+            PlayState.iconP2.changeCharacter("a-guy-whos-hungery");
+            var red_starved_dude = new Character(10, PlayState.dad.y, mod + ":" + "a-guy-whos-hungery");
+            dads.push(red_starved_dude);
+            add(red_starved_dude);
+            FlxTween.tween(red_starved_dude, {x: 1201.8}, Std.parseFloat(2), {ease: FlxEase.linear});
+            red_starved_dude.playAnim('YAYLKJOILEFHJUIOHIUJHGIURGHIUO FATE KEKHOG MEKMNEIJKHBIJBHJBGRIOHJRB HEHEIUJHSSUHSIKLJRHIKJHBE');
+            PlayState.boyfriend.playAnim('cool funni talk real?');
     }
 }

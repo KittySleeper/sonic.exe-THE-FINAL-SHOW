@@ -32,7 +32,7 @@ function create() {
     note.maxLateDiff *= 0.5;
     note.cpuIgnore = false;
 
-    var counterpic = new FlxSprite(1133, 610).loadGraphic(Paths.image('events/ring count'));
+    var counterpic = new FlxSprite(1133, 610).loadGraphic(Paths.image('ui/ring count'));
 	add(counterpic);
 	counterpic.cameras = [PlayState.camHUD];
 
