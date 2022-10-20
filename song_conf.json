@@ -34,6 +34,13 @@
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "endless"
+		},
+		{
+			"scripts": [],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "endless-encore"
 		}
 	]
 }
