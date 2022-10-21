@@ -39,6 +39,10 @@ case 'prey':
 case 'milk':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOLD CODE\nJackie.exe\n\nCHARTING\nNiffirg\n\nARTWORK\nComgaming_Nz\nStankfield\n\nMUSIC\nSqueak';
     creds.x = 521.8;
+case 'confronting-yourself':
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\nJustARock\n\nOLD CODE\nJotaMr\nJos9199\nMorenoTheCapuccinoChugger\n\nCOMPOSERS\nSaster\nTheKylevi\nPivelink\n\nCHARTERS\nRickyMania22';
+    creds.x = 489.3;
+    creds.scale.set(0.6, 0.6);
     default:
     creds.text = 'no creds found\n  :nobitches:';
     creds.x = 489.3;

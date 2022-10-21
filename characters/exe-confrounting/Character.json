@@ -22,11 +22,20 @@
 		},
 		{
 			"indices": null,
-			"x": -9,
-			"y": -7,
-			"anim": "exe Right",
+			"x": -26,
+			"y": 2,
+			"anim": "exe Laugh",
 			"loop": false,
-			"name": "singRIGHT",
+			"name": "singDOWN-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -26,
+			"y": 2,
+			"anim": "exe Laugh",
+			"loop": false,
+			"name": "singUP-alt",
 			"framerate": 24
 		},
 		{
@@ -40,11 +49,11 @@
 		},
 		{
 			"indices": null,
-			"x": -5,
-			"y": -20,
-			"anim": "exe Up",
+			"x": -9,
+			"y": -7,
+			"anim": "exe Right",
 			"loop": false,
-			"name": "singUP",
+			"name": "singRIGHT",
 			"framerate": 24
 		},
 		{
@@ -58,11 +67,11 @@
 		},
 		{
 			"indices": null,
-			"x": 0,
-			"y": -3,
-			"anim": "exe Laugh",
+			"x": -5,
+			"y": -20,
+			"anim": "exe Up",
 			"loop": false,
-			"name": "singUP-alt",
+			"name": "singUP",
 			"framerate": 24
 		}
 	],
