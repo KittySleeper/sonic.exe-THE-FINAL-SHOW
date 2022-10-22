@@ -31,15 +31,6 @@
 		},
 		{
 			"indices": null,
-			"x": 6,
-			"y": -4,
-			"anim": "Furnace right",
-			"loop": false,
-			"name": "singRIGHT",
-			"framerate": 24
-		},
-		{
-			"indices": null,
 			"x": -11,
 			"y": 34,
 			"anim": "Furnace down",
@@ -49,11 +40,11 @@
 		},
 		{
 			"indices": null,
-			"x": -30,
-			"y": 7,
-			"anim": "Furnace left",
+			"x": 6,
+			"y": -4,
+			"anim": "Furnace right",
 			"loop": false,
-			"name": "singLEFT",
+			"name": "singRIGHT",
 			"framerate": 24
 		},
 		{
@@ -64,12 +55,21 @@
 			"loop": false,
 			"name": "singUP",
 			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -30,
+			"y": 7,
+			"anim": "Furnace left",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
 		}
 	],
 	"danceSteps": [
 		"idle"
 	],
-	"antialiasing": true,
+	"antialiasing": false,
 	"healthIconSteps": [
 		[
 			20,
@@ -80,5 +80,5 @@
 			1
 		]
 	],
-	"scale": 2.8
+	"scale": 6
 }

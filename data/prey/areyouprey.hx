@@ -4,7 +4,8 @@ var floor:FlxBackdrop;
 
 function createPost() {
     defaultCamZoom = 0.8;
-    dad.y += 376.8;
+    dad.y += 210.8;
+    boyfriend.y -= 100.8;
     camHUD.visible = false;
     floor = new FlxBackdrop((Paths.image('stages/prey/stardustFloor')));
     floor.y += 1430.6;
@@ -36,12 +37,12 @@ function update() {
             camHUD.visible = true;
         case 1544:
             dad.alpha = 0;
-            PlayState.iconP2.changeCharacter("a-guy-whos-hungery");
-            var red_starved_dude = new Character(10, PlayState.dad.y, mod + ":" + "a-guy-whos-hungery");
+            iconP2.changeCharacter("a-guy-whos-hungery");
+            var red_starved_dude = new Character(10, dad.y, mod + ":" + "a-guy-whos-hungery");
             dads.push(red_starved_dude);
             add(red_starved_dude);
             FlxTween.tween(red_starved_dude, {x: 1201.8}, Std.parseFloat(2), {ease: FlxEase.linear});
             red_starved_dude.playAnim('YAYLKJOILEFHJUIOHIUJHGIURGHIUO FATE KEKHOG MEKMNEIJKHBIJBHJBGRIOHJRB HEHEIUJHSSUHSIKLJRHIKJHBE');
-            PlayState.boyfriend.playAnim('cool funni talk real?');
+            boyfriend.playAnim('cool funni talk real?');
     }
 }

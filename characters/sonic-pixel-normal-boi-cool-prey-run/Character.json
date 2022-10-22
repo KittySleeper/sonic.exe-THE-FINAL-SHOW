@@ -24,15 +24,6 @@
 			"indices": null,
 			"x": 0,
 			"y": 0,
-			"anim": "sonic sing down",
-			"loop": false,
-			"name": "singDOWN",
-			"framerate": 24
-		},
-		{
-			"indices": null,
-			"x": 0,
-			"y": 0,
 			"anim": "sonic sing right",
 			"loop": false,
 			"name": "singRIGHT",
@@ -42,9 +33,18 @@
 			"indices": null,
 			"x": 0,
 			"y": 0,
-			"anim": "sonic sing up",
+			"anim": "sonic sing down",
 			"loop": false,
-			"name": "singUP",
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "dialogue ",
+			"loop": false,
+			"name": "cool funni talk real?",
 			"framerate": 24
 		},
 		{
@@ -60,9 +60,9 @@
 			"indices": null,
 			"x": 0,
 			"y": 0,
-			"anim": "dialogue ",
+			"anim": "sonic sing up",
 			"loop": false,
-			"name": "cool funni talk real?",
+			"name": "singUP",
 			"framerate": 24
 		}
 	],
@@ -80,5 +80,5 @@
 			1
 		]
 	],
-	"scale": 2.8
+	"scale": 6
 }

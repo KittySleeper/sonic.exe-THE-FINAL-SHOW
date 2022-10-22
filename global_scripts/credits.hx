@@ -35,7 +35,8 @@ case 'endless-encore':
     creds.text = 'Credits\nPORTERS\n[504]brandon\n\nCHARTING\nGodzillaGang\n\nCOMPOSERS\nStarMoBro';
     creds.x = 502.3;
 case 'prey':
-    creds.text = 'you shouldent be able to see this...';
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOLD CODE\nAvery\nCryBit\n\nARTWORK\nAnarakWarriors\n\nMUSIC\nArmydillo\n\nCHARTING\nVentiVR';
+    creds.x = 532;
 case 'milk':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOLD CODE\nJackie.exe\n\nCHARTING\nNiffirg\n\nARTWORK\nComgaming_Nz\nStankfield\n\nMUSIC\nSqueak';
     creds.x = 521.8;
@@ -50,6 +51,19 @@ case 'confronting-yourself':
 }
 
 function update() {
+    if(PlayState.SONG.song.toLowerCase() == 'prey'){
+    if(curStep == 127){
+        FlxTween.tween(box, {y: 0}, Std.parseFloat(0.6), {ease: FlxEase.linear});
+        FlxTween.tween(creds, {y: 0}, Std.parseFloat(0.6), {ease: FlxEase.linear});
+    }
+}
+if(PlayState.SONG.song.toLowerCase() == 'prey'){
+    if(curStep == 210){
+        FlxTween.tween(box, {y: -1000}, Std.parseFloat(0.6), {ease: FlxEase.linear});
+        FlxTween.tween(creds, {y: 1000}, Std.parseFloat(0.6), {ease: FlxEase.linear});
+        }
+}
+
     if(curStep == 34){
     FlxTween.tween(box, {y: -1000}, Std.parseFloat(0.6), {ease: FlxEase.linear});
     FlxTween.tween(creds, {y: -1000}, Std.parseFloat(0.6), {ease: FlxEase.linear});

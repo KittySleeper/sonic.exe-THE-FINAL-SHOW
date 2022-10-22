@@ -57,10 +57,10 @@
 			"name": "milk"
 		},
 		{
+			"scripts": [],
+			"difficulties": [],
 			"end_cutscene": null,
 			"cutscene": null,
-			"difficulties": [],
-			"scripts": [],
 			"name": "confronting-yourself"
 		}
 	]
