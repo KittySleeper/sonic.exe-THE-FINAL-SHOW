@@ -1,3 +1,8 @@
+import Sys;
+
+var box = new FlxSprite();
+var boxes = [];
+
 function createPost() {
     defaultCamZoom = 0.5;
     gf.visible = false;
@@ -8,9 +13,9 @@ function createPost() {
 function onPsychEvent(Event:String, funninum1:Int, funninum2:Int) {
     switch(Event) {
       case "Fatality Popup":
-        trace("you realy think i already ported fatality lol");
+        trace('this will be complete eventually');
     case "Clear Popups":
-        trace("lol the popups close here btw");
+        trace('w.i.p');
   }
 }
 
