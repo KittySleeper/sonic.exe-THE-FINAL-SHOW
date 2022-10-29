@@ -1,4 +1,6 @@
 import haxe.Json;
+import haxe.Timer;
+import Sys;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxState;
@@ -69,6 +71,7 @@ function create() {
         function() {
             remove(videoSprite);
             FlxG.sound.play(Paths.sound('hehehawhaw but more hehehawhaw'));
+            Sys.sleep(1);
             FlxG.camera.flash(0xFFedf5ef, 2.4);
             FlxG.sound.playMusic(Paths.music('spookysounds'));
         },
@@ -87,5 +90,6 @@ function update() {
 function EnterSelected() {
     titletxtspr.animation.play('press');
     FlxG.sound.play(Paths.sound('hehehawhaw'));
+    Sys.sleep(1.2);
     FlxG.switchState(new MainMenuState());
 }

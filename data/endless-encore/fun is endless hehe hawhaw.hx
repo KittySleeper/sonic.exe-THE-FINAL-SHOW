@@ -12,7 +12,7 @@ function createPost() {
     majin_fun.visible = false;
     majin_fun.x = dad.x - 10;
     majin_fun.y = dad.y - 43;
-    majin_fun.scale.set(1.5, 1.5);
+    majin_fun.scale.set(1.2, 1.2);
     add(majin_fun);
 }
 

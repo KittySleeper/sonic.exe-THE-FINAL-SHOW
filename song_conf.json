@@ -62,6 +62,13 @@
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "confronting-yourself"
+		},
+		{
+			"end_cutscene": null,
+			"cutscene": null,
+			"difficulties": [],
+			"scripts": [],
+			"name": "fatality"
 		}
 	]
 }

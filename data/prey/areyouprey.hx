@@ -23,8 +23,8 @@ function create() {
 }
 
 function update() {
-    bg.x -= 5;
-    floor.x -= 10;
+    bg.x -= 20;
+    floor.x -= 30;
 
     switch curStep{
         case 127:

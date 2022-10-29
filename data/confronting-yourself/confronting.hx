@@ -35,5 +35,5 @@ function create() {
 }
 
 function onDadHit(){
-    health -= 0.0019;
+    health -= 0.00643;
 }

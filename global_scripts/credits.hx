@@ -26,10 +26,10 @@ case 'too-slow':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOG CODE\nJackie.exe\n\nARTWORK\nCherribun\nComgaming\n\nMUSIC\nMarStarBro\nSaster\n\nCHARTING\nWilde';
     creds.x = 510.3;
 case 'too-slow-encore':
-    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nCOMPOSERS\nStarMoBro\nSaster';
+    creds.text = 'Credits\n\nPORTERS\n[504]brandonn\n\nOG CODE\nJackie.exe\n\nARTWORK\nCherribun\n[504]brandon\n\nCOMPOSERS\nStarMoBro\nSaster';
     creds.x = 502.3;
 case 'you-cant-run':
-    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nCOMPOSERS\nStarMoBro\nsaster';
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nCOMPOSERS\nStarMoBro\nsastern\n\nCHARTING\nWilde';
     creds.x = 502.3;
 case 'endless-encore':
     creds.text = 'Credits\nPORTERS\n[504]brandon\n\nCHARTING\nGodzillaGang\n\nCOMPOSERS\nStarMoBro';
