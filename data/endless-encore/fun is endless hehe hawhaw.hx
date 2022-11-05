@@ -25,5 +25,7 @@ case 254:
 case 271:
     dad.visible = true;
     majin_fun.visible = false;
+case 529:
+    FlxTween.tween(FlxG.camera, {zoom: 2.5}, Std.parseFloat(20.3), {ease: FlxEase.linear});
     }
 }
