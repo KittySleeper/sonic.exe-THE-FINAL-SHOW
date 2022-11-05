@@ -1,7 +1,6 @@
 import flixel.math.FlxRandom;
 
 var box = new FlxSprite();
-var boxes:FlxTypedGroup = [];
 var funnibgmain:FlxSprite;
 var funnimen:FlxSprite;
 var funnierrorbgstage2funni:FlxSprite;
@@ -51,8 +50,8 @@ function create() {
     trueFatal.frames = Paths.getSparrowAtlas('stages/fatal/truefatalstage');
     trueFatal.animation.addByIndices('piss', 'idle', [0, 1, 2, 3], "", 12, true);
     trueFatal.animation.play('piss');
-    trueFatal.scale.x = 4;
-    trueFatal.scale.y = 4;
+    trueFatal.scale.x = 5;
+    trueFatal.scale.y = 5;
     trueFatal.antialiasing = false;
     trueFatal.scrollFactor.set(1, 1);
     trueFatal.visible = false;
@@ -67,6 +66,12 @@ function update() {
         case 256:
             funnimen.visible = true;
             funnierrorbgstage2funni.visible = true;
+        case 2240:
+            trueFatal.visible = true;
+            var fatal_beast = new Character(342, 42.5, mod + ":" + "beast-fatal");
+            dads.push(fatal_beast);
+            add(fatal_beast);
+            dad.visible = false;
     }
 }
 

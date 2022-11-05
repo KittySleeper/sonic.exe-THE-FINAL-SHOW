@@ -64,10 +64,10 @@
 			"name": "confronting-yourself"
 		},
 		{
+			"scripts": [],
+			"difficulties": [],
 			"end_cutscene": null,
 			"cutscene": null,
-			"difficulties": [],
-			"scripts": [],
 			"name": "fatality"
 		}
 	]
