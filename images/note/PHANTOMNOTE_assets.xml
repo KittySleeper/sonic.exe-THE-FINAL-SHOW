@@ -2,8 +2,8 @@
 <TextureAtlas imagePath="PhantomNote.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="bluep0000" x="0" y="0" width="196" height="193"/>
-	<SubTexture name="greenp0000" x="196" y="0" width="184" height="181"/>
-	<SubTexture name="purplep0000" x="0" y="193" width="187" height="190"/>
-	<SubTexture name="redp0000" x="187" y="193" width="193" height="196"/>
+	<SubTexture name="phantom down0000" x="0" y="0" width="196" height="193"/>
+	<SubTexture name="phantom up0000" x="196" y="0" width="184" height="181"/>
+	<SubTexture name="phantom left0000" x="0" y="193" width="187" height="190"/>
+	<SubTexture name="phantom right0000" x="187" y="193" width="193" height="196"/>
 </TextureAtlas>

@@ -44,8 +44,4 @@ if (now.getMonth() == 3 && now.getDate() == 1 && PlayState.song.keyNumber == 4) 
         else if (data % 4 == 2) oldDadHit(1);
         else oldDadHit(data);
     }
-
-    function update(){//you think i wont have custom splashes
-        note.splash = Paths.splashes('weeb/splash');
-    }
 }

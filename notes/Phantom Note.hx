@@ -9,13 +9,13 @@ function create() {
     note.colored = true;
     switch(note.noteDirection) {
         case 0:
-            note.animation.addByPrefix("scroll", "purplep");
+            note.animation.addByPrefix("scroll", "phantom left");
         case 1:
-            note.animation.addByPrefix("scroll", "bluep");
+            note.animation.addByPrefix("scroll", "phantom down");
         case 2:
-            note.animation.addByPrefix("scroll", "greenp");
+            note.animation.addByPrefix("scroll", "phantom up");
         case 3:
-            note.animation.addByPrefix("scroll", "redp");
+            note.animation.addByPrefix("scroll", "phantom right");
     }
     note.animation.addByPrefix("holdpiece", "hold piece");
     note.animation.addByPrefix("holdend", "hold end");
