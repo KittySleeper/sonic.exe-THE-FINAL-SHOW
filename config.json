@@ -2,31 +2,31 @@
 	"skinnableGFs": [],
 	"locked": false,
 	"BFskins": [],
+	"name": "sonic.exe",
 	"keyNumbers": [
 		4
 	],
-	"name": "sonic.exe",
 	"description": "Im Gonna Getcha",
 	"intro": {
+		"newgrounds": "newgrounds",
 		"authors": [
 			"[504]brandon",
 			"justarock",
 			"godzillagang",
 			"evilsk8er"
 		],
-		"newgrounds": "newgrounds",
+		"assoc": [
+			"In association",
+			"with"
+		],
 		"gameName": [
 			"Friday Night Funkin' sonic.exe",
 			"YoshiCrafter",
 			"Engine",
 			"Port"
 		],
-		"assoc": [
-			"In association",
-			"with"
-		],
-		"bpm": 102,
-		"present": "present"
+		"present": "present",
+		"bpm": 102
 	},
 	"skinnableBFs": [],
 	"titleBarName": "Friday Night Funkin' - Sonic.exe",
