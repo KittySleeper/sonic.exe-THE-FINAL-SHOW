@@ -76,6 +76,13 @@
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "too-slow-sillycore"
+		},
+		{
+			"scripts": [],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "confronting-yourself-encore"
 		}
 	]
 }

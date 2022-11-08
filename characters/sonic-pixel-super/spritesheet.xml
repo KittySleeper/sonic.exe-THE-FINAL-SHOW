@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="FlyingSuper.png"><SubTexture name="SuperSonic idle0000" x="0" y="0" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+<SubTexture name="SuperSonic idle0001" x="70" y="0" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+<SubTexture name="SuperSonic left0000" x="140" y="0" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+<SubTexture name="SuperSonic left0001" x="0" y="64" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+<SubTexture name="SuperSonic right0000" x="70" y="64" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+<SubTexture name="SuperSonic right0001" x="140" y="64" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+<SubTexture name="SuperSonic up0000" x="0" y="128" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+<SubTexture name="SuperSonic up0001" x="70" y="128" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+<SubTexture name="SuperSonic down0000" x="140" y="128" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+<SubTexture name="SuperSonic down0001" x="0" y="192" width="70" height="64" frameX="0" frameY="0" frameWidth="70" frameHeight="64" />
+</TextureAtlas>

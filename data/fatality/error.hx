@@ -1,4 +1,7 @@
 import flixel.math.FlxRandom;
+import sys.FileSystem;
+import sys.io.File;
+import Sys;
 
 var box = new FlxSprite();
 var funnibgmain:FlxSprite;
@@ -11,6 +14,7 @@ function createPost() {
     gf.visible = false;
     FlxG.resizeGame(960, 720);
 	FlxG.resizeWindow(960, 720);
+    FlxG.mouse.load(Paths.image("ui/fatal_mouse_cursor"), 1.5, 0);
 }
 
 function create() {
@@ -58,6 +62,23 @@ function create() {
     add(trueFatal);
 }
 
+function onPsychEvent(Event:String, funninum1:Int, funninum2:Int) {
+    switch(Event) {
+      case "Fatality Popup":
+        box.frames = Paths.getSparrowAtlas("events/fatal/error_popups");
+        box.animation.addByPrefix("a", "idle", 24, false);
+        add(box);
+        box.animation.play('a', true);
+        box.setGraphicSize(Std.int(box.width * 2.5));
+        box.x = FlxG.random.float(700);
+        box.y = FlxG.random.float(600);
+        box.visible = true;
+        box.cameras = [PlayState.camHUD];
+    case "Clear Popups":
+        box.visible = false;
+  }
+}
+
 function update() {
     if (FlxG.mouse.overlaps(box) && FlxG.mouse.justPressed){
         box.visible = false;
@@ -75,24 +96,9 @@ function update() {
     }
 }
 
-function onPsychEvent(Event:String, funninum1:Int, funninum2:Int) {
-    switch(Event) {
-      case "Fatality Popup":
-        box.frames = Paths.getSparrowAtlas("events/fatal/error_popups");
-        box.animation.addByPrefix("a", "idle", 24, false);
-        add(box);
-        box.animation.play('a', true);
-	    box.setGraphicSize(Std.int(box.width * 2.5));
-        box.x = FlxG.random.float(700);
-        box.y = FlxG.random.float(600);
-        box.visible = true;
-        box.cameras = [PlayState.camHUD];
-    case "Clear Popups":
-        box.visible = false;
-  }
-}
-
 function onPreEndSong() {
     FlxG.resizeGame(1280, 720);
 	FlxG.resizeWindow(1280, 720);
+    FlxG.mouse.unload();
+    Sys.command('${Sys.getCwd()}mods\\$mod\\FatalError.exe');
 }
