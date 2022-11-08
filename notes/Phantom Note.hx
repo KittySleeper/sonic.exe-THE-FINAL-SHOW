@@ -2,17 +2,20 @@ enableRating = false;
 
 function create() {
     note.hitOnBotplay = false;
+    if(PlayState.storyDifficulty.toLowerCase() == 'sillycore')
+    note.frames = Paths.getSparrowAtlas("note/sillynotes");
+    else
     note.frames = Paths.getSparrowAtlas("note/PHANTOMNOTE_assets");
     note.colored = true;
     switch(note.noteDirection) {
         case 0:
-            note.animation.addByPrefix("scroll", "purple");
+            note.animation.addByPrefix("scroll", "purplep");
         case 1:
-            note.animation.addByPrefix("scroll", "blue");
+            note.animation.addByPrefix("scroll", "bluep");
         case 2:
-            note.animation.addByPrefix("scroll", "green");
+            note.animation.addByPrefix("scroll", "greenp");
         case 3:
-            note.animation.addByPrefix("scroll", "red");
+            note.animation.addByPrefix("scroll", "redp");
     }
     note.animation.addByPrefix("holdpiece", "hold piece");
     note.animation.addByPrefix("holdend", "hold end");

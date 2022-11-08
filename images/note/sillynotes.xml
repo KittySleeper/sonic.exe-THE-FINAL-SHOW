@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sillynotes.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="0" y="0" width="260" height="201"/>
+	<SubTexture name="bluep0000" x="260" y="0" width="158" height="162"/>
+	<SubTexture name="green0000" x="418" y="0" width="287" height="239"/>
+	<SubTexture name="greenp0000" x="705" y="0" width="159" height="171"/>
+	<SubTexture name="purple0000" x="864" y="0" width="121" height="161"/>
+	<SubTexture name="purplep0000" x="0" y="239" width="196" height="156"/>
+	<SubTexture name="red0000" x="196" y="239" width="224" height="283"/>
+	<SubTexture name="redp0000" x="420" y="239" width="192" height="137"/>
+	<SubTexture name="ring instance 10000" x="612" y="239" width="158" height="150"/>
+</TextureAtlas>

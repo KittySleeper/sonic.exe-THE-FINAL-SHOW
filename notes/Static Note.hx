@@ -2,6 +2,9 @@
 
     function create() {
         note.hitOnBotplay = true;
+        if(PlayState.storyDifficulty.toLowerCase() == 'sillycore')
+        note.frames = Paths.getSparrowAtlas("note/sillynotes");
+        else
         note.frames = Paths.getSparrowAtlas("note/STATICNOTE_assets");
         note.colored = false;
         switch(note.noteDirection) {
