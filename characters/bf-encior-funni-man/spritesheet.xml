@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="enzore boigar funnier.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dwin0000" x="0" y="0" width="225" height="225" frameX="-3" frameY="0" frameWidth="228" frameHeight="225"/>
+	<SubTexture name="dwin0001" x="225" y="0" width="225" height="203" frameX="-2" frameY="-18" frameWidth="228" frameHeight="225"/>
+	<SubTexture name="dwin0002" x="450" y="0" width="225" height="171" frameX="0" frameY="-43" frameWidth="228" frameHeight="225"/>
+	<SubTexture name="dwin0003" x="675" y="0" width="225" height="154" frameX="-1" frameY="-58" frameWidth="228" frameHeight="225"/>
+	<SubTexture name="dwin0004" x="900" y="0" width="225" height="134" frameX="-1" frameY="-77" frameWidth="228" frameHeight="225"/>
+	<SubTexture name="idle0000" x="1125" y="0" width="328" height="357" frameX="-115" frameY="-1" frameWidth="443" frameHeight="358"/>
+	<SubTexture name="idle0001" x="1453" y="0" width="337" height="357" frameX="-104" frameY="-1" frameWidth="443" frameHeight="358"/>
+	<SubTexture name="idle0002" x="0" y="357" width="358" height="357" frameX="-81" frameY="-1" frameWidth="443" frameHeight="358"/>
+	<SubTexture name="idle0003" x="358" y="357" width="375" height="357" frameX="-62" frameY="-1" frameWidth="443" frameHeight="358"/>
+	<SubTexture name="idle0004" x="733" y="357" width="393" height="357" frameX="-41" frameY="0" frameWidth="443" frameHeight="358"/>
+	<SubTexture name="idle0005" x="1126" y="357" width="412" height="357" frameX="-15" frameY="0" frameWidth="443" frameHeight="358"/>
+	<SubTexture name="idle0006" x="1538" y="357" width="428" height="357" frameX="0" frameY="-1" frameWidth="443" frameHeight="358"/>
+	<SubTexture name="idle0007" x="0" y="714" width="415" height="357" frameX="-16" frameY="-1" frameWidth="443" frameHeight="358"/>
+	<SubTexture name="leinvt0000" x="415" y="714" width="183" height="276" frameX="-71" frameY="0" frameWidth="258" frameHeight="279"/>
+	<SubTexture name="leinvt0001" x="598" y="714" width="195" height="276" frameX="-60" frameY="0" frameWidth="258" frameHeight="279"/>
+	<SubTexture name="leinvt0002" x="793" y="714" width="211" height="276" frameX="-45" frameY="-2" frameWidth="258" frameHeight="279"/>
+	<SubTexture name="leinvt0003" x="1004" y="714" width="231" height="276" frameX="-27" frameY="-3" frameWidth="258" frameHeight="279"/>
+	<SubTexture name="leinvt0004" x="1235" y="714" width="255" height="276" frameX="0" frameY="-2" frameWidth="258" frameHeight="279"/>
+	<SubTexture name="rigtent0000" x="1490" y="714" width="226" height="223" frameX="-4" frameY="-2" frameWidth="296" frameHeight="225"/>
+	<SubTexture name="rigtent0001" x="1716" y="714" width="242" height="223" frameX="-3" frameY="-2" frameWidth="296" frameHeight="225"/>
+	<SubTexture name="rigtent0002" x="0" y="1071" width="264" height="223" frameX="0" frameY="0" frameWidth="296" frameHeight="225"/>
+	<SubTexture name="rigtent0003" x="264" y="1071" width="294" height="223" frameX="-2" frameY="0" frameWidth="296" frameHeight="225"/>
+	<SubTexture name="uiop0000" x="558" y="1071" width="225" height="225" frameX="0" frameY="-74" frameWidth="226" frameHeight="309"/>
+	<SubTexture name="uiop0001" x="783" y="1071" width="225" height="247" frameX="0" frameY="-55" frameWidth="226" frameHeight="309"/>
+	<SubTexture name="uiop0002" x="1008" y="1071" width="225" height="267" frameX="0" frameY="-37" frameWidth="226" frameHeight="309"/>
+	<SubTexture name="uiop0003" x="1233" y="1071" width="225" height="288" frameX="0" frameY="-21" frameWidth="226" frameHeight="309"/>
+	<SubTexture name="uiop0004" x="1458" y="1071" width="225" height="307" frameX="-1" frameY="0" frameWidth="226" frameHeight="309"/>
+</TextureAtlas>

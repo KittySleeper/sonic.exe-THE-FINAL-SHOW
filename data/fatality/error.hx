@@ -68,7 +68,7 @@ function update() {
             funnierrorbgstage2funni.visible = true;
         case 2240:
             trueFatal.visible = true;
-            var fatal_beast = new Character(342, 42.5, mod + ":" + "beast-fatal");
+            var fatal_beast = new Character(342, 165.3, mod + ":" + "beast-fatal");
             dads.push(fatal_beast);
             add(fatal_beast);
             dad.visible = false;
