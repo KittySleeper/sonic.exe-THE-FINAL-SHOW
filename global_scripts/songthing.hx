@@ -7,9 +7,11 @@ function createPost() {
 
     startCircle = new FlxSprite(0, 0).loadGraphic(Paths.image('startassets/Circle-'+ PlayState.SONG.song.toLowerCase()));
     startCircle.x += 900;
+    startCircle.scrollFactor.set(0, 0);
     add(startCircle);
     startText = new FlxSprite(0, 0).loadGraphic(Paths.image('startassets/Text-' + PlayState.SONG.song.toLowerCase()));
     startText.x -= 1200;
+    startText.scrollFactor.set(0, 0);
     add(startText);
 
     new FlxTimer().start(0.6, function(tmr:FlxTimer)

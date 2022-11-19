@@ -1,7 +1,4 @@
 import flixel.math.FlxRandom;
-import sys.FileSystem;
-import sys.io.File;
-import Sys;
 
 var box = new FlxSprite();
 var funnibgmain:FlxSprite;
@@ -100,5 +97,4 @@ function onPreEndSong() {
     FlxG.resizeGame(1280, 720);
 	FlxG.resizeWindow(1280, 720);
     FlxG.mouse.unload();
-    Sys.command('${Sys.getCwd()}mods\\$mod\\FatalError.exe');
 }
