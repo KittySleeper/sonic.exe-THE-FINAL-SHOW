@@ -1,5 +1,4 @@
 import flixel.text.FlxTextBorderStyle;
-import DiscordClient;
 import LoadingState;
 import flixel.FlxBasic;
 import flixel.FlxG;
@@ -15,4 +14,5 @@ function create() {
 function update() {
     if(FlxG.keys.justPressed.ESCAPE){
     FlxG.switchState(new MainMenuState());
+	}
 }

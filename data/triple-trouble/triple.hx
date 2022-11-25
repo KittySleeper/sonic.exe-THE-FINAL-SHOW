@@ -36,7 +36,7 @@ function createPost() {
 	beatdudeguyboicummypalfunnipalfriend.visible = false;
 	add(beatdudeguyboicummypalfunnipalfriend);
 
-	boifriedbutstrang = new Character(PlayState.boyfriend.x, PlayState.boyfriend.y - 300, mod + ":" + "bf-beast-pov");
+	boifriedbutstrang = new Character(PlayState.boyfriend.x - 87, PlayState.boyfriend.y + -20, mod + ":" + "bf-beast-pov");
     boyfriends.push(boifriedbutstrang);
 	boifriedbutstrang.visible = false;
 	add(boifriedbutstrang);
@@ -51,6 +51,6 @@ function update(){
 		zenotreezfunniback.visible = true;
 		funnizenopinzbg.visible = true;
 		funnizenopinzflierk.visible = true;
-		PlayState.defaultCamZoom = 0.8;
+		defaultCamZoom = 0.8;
 	}
 }

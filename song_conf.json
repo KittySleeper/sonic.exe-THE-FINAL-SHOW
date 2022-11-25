@@ -54,6 +54,13 @@
 			"difficulties": [],
 			"end_cutscene": null,
 			"cutscene": null,
+			"name": "fight-or-flight"
+		},
+		{
+			"scripts": [],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
 			"name": "milk"
 		},
 		{
