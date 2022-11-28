@@ -1,5 +1,6 @@
 var beatdudeguyboicummypalfunnipalfriend:Character = null;
 var boifriedbutstrang:Character = null;
+var boyfriendflip:Character = null;
 var zenotreezfunniback:FlxSprite = null;
 var funnizenopinzbg:FlxSprite = null;
 var funnizenopinzflierk:FlxSprite = null;
@@ -40,6 +41,12 @@ function createPost() {
     boyfriends.push(boifriedbutstrang);
 	boifriedbutstrang.visible = false;
 	add(boifriedbutstrang);
+
+	boyfriendflip = new Character(PlayState.dad.x + 2, PlayState.dad.y + 32.2, "Friday Night Funkin'" + ":" + "bf");
+    boyfriends.push(boyfriendflip);
+	boyfriendflip.visible = false;
+	boyfriendflip.flipX = true;
+	add(boyfriendflip);
 }
 
 function update(){
@@ -52,5 +59,8 @@ function update(){
 		funnizenopinzbg.visible = true;
 		funnizenopinzflierk.visible = true;
 		defaultCamZoom = 0.8;
+	case 1296:
+		boifriedbutstrang.visible = false;
+		boyfriendflip.visible = true;
 	}
 }

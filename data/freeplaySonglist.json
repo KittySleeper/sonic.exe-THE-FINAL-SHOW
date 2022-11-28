@@ -99,15 +99,26 @@
 			"bpm": 150
 		},
 		{
-			"bpm": 123,
 			"difficulties": [
 				"Hard",
 				"Encore"
 			],
 			"displayName": null,
 			"char": "starvedboi",
+			"bpm": 123,
 			"name": "fight-or-flight",
 			"color": "#F10E0E"
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Hard",
+				"Sillycore"
+			],
+			"char": "cursed-real-no-caperHE DISNT KILL KNUCK",
+			"color": "#323262",
+			"name": "malediction",
+			"bpm": 120
 		}
 	]
 }

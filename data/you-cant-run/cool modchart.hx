@@ -6,7 +6,7 @@ var bf_pixel_lol:Character = null;
 var ange_boi:Character = null;
 var the_original_place:FlxSprite = null;
 var staticy_static:FlxSprite = null;
-var scoreTxtPixel:FlxText = new FlxText(3, 589);//man i realy needed that .0001
+var scoreTxtPixel:FlxText = new FlxText(3, 589);
 
 function createPost(){
             the_original_place = new FlxSprite(0, 0).loadGraphic(Paths.image('stages/round two forest/GreenHill'));
@@ -105,6 +105,11 @@ function update() {
             staticy_static.visible = false;
             FlxG.resizeGame(1280, 720);
             FlxG.resizeWindow(1280, 720);
+        case 1415:
+            defaultCamZoom = 1.5;
+        case 1423:
+            defaultCamZoom = 2;
+            FlxTween.tween(camHUD, {alpha: 0}, Std.parseFloat(1), {ease: FlxEase.linear});
     }
 }
 function onDadHit(){
