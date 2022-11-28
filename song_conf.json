@@ -97,6 +97,13 @@
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "cycles"
+		},
+		{
+			"end_cutscene": null,
+			"cutscene": null,
+			"difficulties": [],
+			"scripts": [],
+			"name": "malediction"
 		}
 	]
 }

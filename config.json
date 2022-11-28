@@ -1,34 +1,37 @@
 {
+	"discordRpc": null,
 	"skinnableGFs": [],
+	"downloadLink": null,
 	"locked": false,
 	"BFskins": [],
-	"name": "sonic.exe",
 	"keyNumbers": [
 		4
 	],
-	"description": "Im Gonna Getcha",
+	"name": "sonic.exe the final show...",
+	"description": "get ready for my FINAL SHOW",
 	"intro": {
-		"newgrounds": "newgrounds",
 		"authors": [
 			"[504]brandon",
 			"justarock",
 			"godzillagang",
 			"evilsk8er"
 		],
-		"assoc": [
-			"In association",
-			"with"
-		],
+		"newgrounds": "newgrounds",
 		"gameName": [
 			"Friday Night Funkin' sonic.exe",
 			"YoshiCrafter",
 			"Engine",
 			"Port"
 		],
-		"present": "present",
-		"bpm": 102
+		"assoc": [
+			"In association",
+			"with"
+		],
+		"bpm": 102,
+		"present": "present"
 	},
 	"skinnableBFs": [],
-	"titleBarName": "Friday Night Funkin' - Sonic.exe",
+	"titleBarName": "Friday Night Funkin' - Sonic.exe The Final Show",
+	"downloadLinkAlt": null,
 	"GFskins": []
 }
