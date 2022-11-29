@@ -53,6 +53,9 @@ case 'fatality':
 case 'cycles':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOLD CODE\nJackie.exe\n\nARTWORK\nJoeDoughBoi\nComgaming_Nz\nArthur / ADJ\n\nMUSIC\nUpTaunt\nVania\n\nCHARTING\nunknown';
     creds.x = 523.6;
+case 'malediction':
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOG CODE\nAvery\nNebula\n\nARTWORK\nJasper Mei\nComgaming_Nz\nMeepers\n\nMUSIC\nUpTaunt\n\nCHARTING\nWilde';
+    creds.x = 523.6;
     default:
     creds.text = 'no creds found\n  :nobitches:';
     creds.x = 489.3;
