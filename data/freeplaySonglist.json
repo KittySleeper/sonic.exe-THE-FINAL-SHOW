@@ -1,124 +1,134 @@
 {
 	"songs": [
 		{
+			"displayName": "too slow",
 			"difficulties": [
 				"Hard",
 				"Encore",
 				"Sillycore"
 			],
-			"displayName": "too slow",
 			"char": "sonicexe",
-			"bpm": 135,
+			"color": "#463EEA",
 			"name": "too-slow",
-			"color": "#463EEA"
+			"bpm": 135
 		},
 		{
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
 			"displayName": "you cant run",
-			"difficulties": [
-				"Hard",
-				"Encore"
-			],
 			"char": "ycr",
-			"color": "#1D1F91",
+			"bpm": 140,
 			"name": "you-cant-run",
-			"bpm": 140
+			"color": "#1D1F91"
 		},
 		{
+			"difficulties": [
+				"Hard",
+				"Encore"
+			],
 			"displayName": "triple trouble",
-			"difficulties": [
-				"Hard",
-				"Encore"
-			],
 			"char": "tailsbutdeadfunniman",
-			"color": "#585050",
+			"bpm": 146,
 			"name": "triple-trouble",
-			"bpm": 146
+			"color": "#585050"
 		},
 		{
+			"displayName": null,
 			"difficulties": [
 				"Hard",
 				"Encore"
 			],
-			"displayName": null,
 			"char": "majinfunniman",
-			"bpm": 155,
+			"color": "#2B01E9",
 			"name": "endless",
-			"color": "#2B01E9"
+			"bpm": 155
 		},
 		{
-			"displayName": null,
 			"difficulties": [
 				"Hard",
 				"Encore"
 			],
+			"displayName": null,
 			"char": "the-guy-from-minecraft",
-			"color": "#302727",
+			"bpm": 176,
 			"name": "prey",
-			"bpm": 176
+			"color": "#302727"
 		},
 		{
+			"displayName": null,
 			"difficulties": [
 				"Hard"
 			],
-			"displayName": null,
 			"char": "sunk-boy-me-bob-ceareal-dude-funni-man",
-			"bpm": 180,
+			"color": "#174996",
 			"name": "milk",
-			"color": "#174996"
+			"bpm": 180
 		},
 		{
-			"displayName": "confronting yourself",
 			"difficulties": [
 				"Hard",
 				"Encore"
 			],
+			"displayName": "confronting yourself",
 			"char": "exe-confrounting",
-			"color": "#2F4689",
+			"bpm": 120,
 			"name": "confronting-yourself",
-			"bpm": 120
+			"color": "#2F4689"
 		},
 		{
+			"displayName": null,
 			"difficulties": [
 				"Hard"
 			],
-			"displayName": null,
 			"char": "omg-its-error-fatel-funni-man-is-he-doing-prey-with-lirics",
-			"bpm": 240,
+			"color": "#DE2602",
 			"name": "fatality",
-			"color": "#DE2602"
+			"bpm": 240
 		},
 		{
-			"displayName": null,
 			"difficulties": [
 				"Hard",
 				"Encore"
 			],
+			"displayName": null,
 			"char": "he-willent-be-fobibin",
-			"color": "#8587BC",
+			"bpm": 150,
 			"name": "cycles",
-			"bpm": 150
+			"color": "#8587BC"
 		},
 		{
+			"displayName": null,
 			"difficulties": [
 				"Hard",
 				"Encore"
 			],
-			"displayName": null,
 			"char": "starvedboi",
-			"bpm": 123,
+			"color": "#F10E0E",
 			"name": "fight-or-flight",
-			"color": "#F10E0E"
+			"bpm": 123
 		},
 		{
-			"displayName": null,
 			"difficulties": [
 				"Hard",
 				"Sillycore"
 			],
+			"displayName": null,
 			"char": "cursed-real-no-caperHE DISNT KILL KNUCK",
-			"color": "#323262",
+			"bpm": 120,
 			"name": "malediction",
-			"bpm": 120
+			"color": "#323262"
+		},
+		{
+			"difficulties": [
+				"Hard"
+			],
+			"displayName": null,
+			"char": "omg hog smol boi",
+			"bpm": 130,
+			"name": "Manual-Blast",
+			"color": "#1C3EAB"
 		}
 	]
 }

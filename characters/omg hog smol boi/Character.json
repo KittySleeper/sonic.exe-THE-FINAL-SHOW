@@ -1,0 +1,84 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -220,
+		"y": -30
+	},
+	"globalOffset": {
+		"x": 110,
+		"y": 410
+	},
+	"healthbarColor": "#1B2CA2",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "HogIdle",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 137,
+			"y": 262,
+			"anim": "Getfucked",
+			"loop": false,
+			"name": "Spinny",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 69,
+			"y": -55,
+			"anim": "HogDown",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 33,
+			"y": -11,
+			"anim": "HogRight",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 30,
+			"y": -20,
+			"anim": "HogLeft",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 23,
+			"y": 79,
+			"anim": "HogUp",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1.3
+}

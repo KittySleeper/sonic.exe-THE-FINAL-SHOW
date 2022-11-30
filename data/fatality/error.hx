@@ -87,9 +87,10 @@ function update() {
         case 2240:
             trueFatal.visible = true;
             var fatal_beast = new Character(342, 165.3, mod + ":" + "beast-fatal");
-            dads.push(fatal_beast);
-            add(fatal_beast);
             dad.visible = false;
+            dads.push(fatal_beast);
+            dads.remove(dad);
+            add(fatal_beast);
     }
 }
 

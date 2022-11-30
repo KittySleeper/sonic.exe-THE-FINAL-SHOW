@@ -1,7 +1,10 @@
-function createPost(){
-    defaultCamZoom = 0.8;
-}
-
+var stage:Stage = null;
 function create() {
+	stage = loadStage('curse');
 }
-
+function update(elapsed) {
+	stage.update(elapsed);
+}
+function beatHit(curBeat) {
+	stage.onBeat();
+}
