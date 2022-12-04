@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sunker but funni sillyboi.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="doiwn sunkermebob0000" x="0" y="0" width="561" height="470" frameX="0" frameY="-52" frameWidth="627" frameHeight="579"/>
+	<SubTexture name="doiwn sunkermebob0001" x="561" y="0" width="603" height="548" frameX="0" frameY="-13" frameWidth="627" frameHeight="579"/>
+	<SubTexture name="doiwn sunkermebob0002" x="1164" y="0" width="613" height="579" frameX="-14" frameY="0" frameWidth="627" frameHeight="579"/>
+	<SubTexture name="idsle0000" x="1777" y="0" width="351" height="371" frameX="-6" frameY="-4" frameWidth="450" frameHeight="384"/>
+	<SubTexture name="idsle0001" x="2128" y="0" width="363" height="371" frameX="-7" frameY="-4" frameWidth="450" frameHeight="384"/>
+	<SubTexture name="idsle0002" x="2491" y="0" width="405" height="371" frameX="-1" frameY="-4" frameWidth="450" frameHeight="384"/>
+	<SubTexture name="idsle0003" x="2896" y="0" width="450" height="380" frameX="0" frameY="0" frameWidth="450" frameHeight="384"/>
+	<SubTexture name="idsle0004" x="3346" y="0" width="416" height="382" frameX="-14" frameY="-2" frameWidth="450" frameHeight="384"/>
+	<SubTexture name="lifght0000" x="0" y="579" width="542" height="518" frameX="-208" frameY="0" frameWidth="781" frameHeight="518"/>
+	<SubTexture name="lifght0001" x="542" y="579" width="610" height="518" frameX="-150" frameY="0" frameWidth="781" frameHeight="518"/>
+	<SubTexture name="lifght0002" x="1152" y="579" width="659" height="518" frameX="-104" frameY="0" frameWidth="781" frameHeight="518"/>
+	<SubTexture name="lifght0003" x="1811" y="579" width="750" height="518" frameX="-28" frameY="0" frameWidth="781" frameHeight="518"/>
+	<SubTexture name="lifght0004" x="2561" y="579" width="781" height="518"/>
+	<SubTexture name="riht0000" x="3342" y="579" width="446" height="427" frameX="-4" frameY="0" frameWidth="621" frameHeight="427"/>
+	<SubTexture name="riht0001" x="0" y="1097" width="508" height="427" frameX="0" frameY="0" frameWidth="621" frameHeight="427"/>
+	<SubTexture name="riht0002" x="508" y="1097" width="563" height="427" frameX="-3" frameY="0" frameWidth="621" frameHeight="427"/>
+	<SubTexture name="riht0003" x="1071" y="1097" width="612" height="427" frameX="-9" frameY="0" frameWidth="621" frameHeight="427"/>
+	<SubTexture name="uipo0000" x="1683" y="1097" width="540" height="388" frameX="-51" frameY="-200" frameWidth="603" frameHeight="715"/>
+	<SubTexture name="uipo0001" x="2223" y="1097" width="558" height="520" frameX="-45" frameY="-113" frameWidth="603" frameHeight="715"/>
+	<SubTexture name="uipo0002" x="2781" y="1097" width="570" height="631" frameX="-21" frameY="-48" frameWidth="603" frameHeight="715"/>
+	<SubTexture name="uipo0003" x="3351" y="1097" width="569" height="715" frameX="0" frameY="0" frameWidth="603" frameHeight="715"/>
+</TextureAtlas>

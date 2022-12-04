@@ -59,7 +59,19 @@
 		{
 			"displayName": null,
 			"difficulties": [
-				"Hard"
+				"Hard",
+				"Encore"
+			],
+			"char": "starvedboi",
+			"color": "#F10E0E",
+			"name": "fight-or-flight",
+			"bpm": 123
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Hard",
+				"Sillycore"
 			],
 			"char": "sunk-boy-me-bob-ceareal-dude-funni-man",
 			"color": "#174996",
@@ -97,17 +109,6 @@
 			"bpm": 150,
 			"name": "cycles",
 			"color": "#8587BC"
-		},
-		{
-			"displayName": null,
-			"difficulties": [
-				"Hard",
-				"Encore"
-			],
-			"char": "starvedboi",
-			"color": "#F10E0E",
-			"name": "fight-or-flight",
-			"bpm": 123
 		},
 		{
 			"difficulties": [
