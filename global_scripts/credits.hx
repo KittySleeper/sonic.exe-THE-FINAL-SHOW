@@ -44,7 +44,7 @@ case 'milk':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOLD CODE\nJackie.exe\n\nCHARTING\nNiffirg\n\nARTWORK\nComgaming_Nz\nStankfield\n\nMUSIC\nSqueak';
     creds.x = 521.8;
 case 'milk-sillycore':
-    creds.text = 'Credits\n\nCODERS\n[504]brandon\n\nCHARTING\nNiffirig\n\nARTWORK\nComgaming_Nz\nStankfield\nSunkey.mpeg Team\nbro-tonic\nSonic stuff\nRodri117\n\nMUSIC\nSqueak\n[504]brandon';
+    creds.text = 'Credits\n\nCODERS\n[504]brandon\n\nCHARTING\nNiffirig\n\nARTWORK\nComgaming_Nz\nStankfield\nSunkey.mpeg Team\nbro-tonic\nSonic stuff\nRodri117 \nMUSIC\nSqueak\n[504]brandon';
     creds.x = 521.8;
 case 'confronting-yourself':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\nJustARock\n\nOLD CODE\nJotaMr\nJos9199\nMorenoTheCapuccinoChugger\n\nCOMPOSERS\nSaster\nTheKylevi\nPivelink\n\nCHARTERS\nRickyMania22';
@@ -57,7 +57,10 @@ case 'cycles':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOLD CODE\nJackie.exe\n\nARTWORK\nJoeDoughBoi\nComgaming_Nz\nArthur / ADJ\n\nMUSIC\nUpTaunt\nVania\n\nCHARTING\nunknown';
     creds.x = 523.6;
 case 'malediction':
-    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOG CODE\nAvery\nNebula\n\nARTWORK\nJasper Mei\nComgaming_Nz\nMeepers\n\nMUSIC\nUpTaunt\n\nCHARTING\nWilde';
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOG CODE\nAvery\nNebula\n\nARTWORK\nMeepers\n\nOG ARTWORK\nJasper Mei\nComgaming_Nz\n\nMUSIC\nUpTaunt\n\nCHARTING\nWilde';
+    creds.x = 523.6;
+case 'personel':
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOG CODE\nJackie.exe\n\nARTWORK\nMeepers\nDarealruin\n\nOG ARTWORK\nayybeff\nComgaming_Nz\n\nMUSIC\nAdam Mchummus\n\nCHARTING\nJackie.exe';
     creds.x = 523.6;
     default:
     creds.text = 'no creds found\n  :nobitches:';
@@ -80,7 +83,7 @@ if(PlayState.SONG.song.toLowerCase() == 'prey'){
 }
 
     if(curStep == 34){
-    FlxTween.tween(box, {y: -1000}, Std.parseFloat(0.6), {ease: FlxEase.linear});
-    FlxTween.tween(creds, {y: -1000}, Std.parseFloat(0.6), {ease: FlxEase.linear});
+    FlxTween.tween(box, {y: -2000}, Std.parseFloat(0.6), {ease: FlxEase.linear});
+    FlxTween.tween(creds, {y: -2000}, Std.parseFloat(0.6), {ease: FlxEase.linear});
     }
 }

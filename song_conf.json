@@ -111,6 +111,20 @@
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "manual-blast"
+		},
+		{
+			"scripts": [],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "milk-sillycore"
+		},
+		{
+			"end_cutscene": null,
+			"cutscene": null,
+			"difficulties": [],
+			"scripts": [],
+			"name": "personel"
 		}
 	]
 }

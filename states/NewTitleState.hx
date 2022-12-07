@@ -64,9 +64,8 @@ function create() {
         trace("Video not found.");
         return;
     }
-
     var videoSprite:FlxSprite = null;
-    
+
     videoSprite = MP4Video.playMP4(Assets.getPath(path),
         function() {
             remove(videoSprite);

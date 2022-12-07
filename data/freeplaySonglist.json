@@ -130,6 +130,41 @@
 			"bpm": 130,
 			"name": "Manual-Blast",
 			"color": "#1C3EAB"
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Hard",
+				"Ur-mom"
+			],
+			"char": "cold boy dteal btw do not steal it is no funni",
+			"color": "#BD59C9",
+			"name": "personel",
+			"bpm": 190
 		}
 	]
 }
