@@ -15,7 +15,8 @@
 		{
 			"difficulties": [
 				"Hard",
-				"Encore"
+				"Encore",
+				"Old"
 			],
 			"displayName": "you cant run",
 			"char": "ycr",
