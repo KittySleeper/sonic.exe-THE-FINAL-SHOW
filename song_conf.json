@@ -125,6 +125,20 @@
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "personel"
+		},
+		{
+			"scripts": [],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "you-cant-run-old"
+		},
+		{
+			"scripts": [],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "fatality-sillycore"
 		}
 	]
 }

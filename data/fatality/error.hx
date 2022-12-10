@@ -19,8 +19,7 @@ function create() {
     funnibgmain.frames = Paths.getSparrowAtlas('stages/fatal/launchbase');
     funnibgmain.animation.addByIndices('funnibgmainidlefunniness', 'idle', [0, 1, 2, 3, 4, 5, 6, 8, 9], "", 12, true);
     funnibgmain.animation.play('funnibgmainidlefunniness');
-    funnibgmain.scale.x = 5;
-    funnibgmain.scale.y = 5;
+    funnibgmain.scale.set(5, 5);
     funnibgmain.antialiasing = false;
     funnibgmain.scrollFactor.set(1, 1);
     add(funnibgmain);
@@ -29,8 +28,7 @@ function create() {
     funnierrorbgstage2funni.frames = Paths.getSparrowAtlas('stages/fatal/domain2');
     funnierrorbgstage2funni.animation.addByIndices('theand', 'idle', [0, 1, 2, 3, 4, 5, 6, 8, 9], "", 12, true);
     funnierrorbgstage2funni.animation.play('theand');
-    funnierrorbgstage2funni.scale.x = 6;
-    funnierrorbgstage2funni.scale.y = 6;
+    funnierrorbgstage2funni.scale.set(6, 6);
     funnierrorbgstage2funni.antialiasing = false;
     funnierrorbgstage2funni.scrollFactor.set(1, 1);
     funnierrorbgstage2funni.visible = false;
@@ -38,10 +36,8 @@ function create() {
 
     funnimen = new FlxSprite(100, 198);
     funnimen.frames = Paths.getSparrowAtlas('stages/fatal/domain');
-    funnimen.animation.addByIndices('bopin', 'idle', [0, 1, 2, 3, 4], "", 12, true);
-    funnimen.animation.play('bopin');
-    funnimen.scale.x = 4;
-    funnimen.scale.y = 4;
+    funnimen.animation.addByIndices('bopin', 'idle', [0, 1, 2, 3, 4], "", 12);
+    funnimen.scale.set(4, 4);
     funnimen.antialiasing = false;
     funnimen.scrollFactor.set(1, 1);
     funnimen.visible = false;
@@ -51,8 +47,7 @@ function create() {
     trueFatal.frames = Paths.getSparrowAtlas('stages/fatal/truefatalstage');
     trueFatal.animation.addByIndices('piss', 'idle', [0, 1, 2, 3], "", 12, true);
     trueFatal.animation.play('piss');
-    trueFatal.scale.x = 5;
-    trueFatal.scale.y = 5;
+    trueFatal.scale.set(5, 5);
     trueFatal.antialiasing = false;
     trueFatal.scrollFactor.set(1, 1);
     trueFatal.visible = false;
@@ -92,6 +87,10 @@ function update() {
             dads.remove(dad);
             add(fatal_beast);
     }
+}
+
+function beatHit(curBeat) {
+    funnimen.animation.play('bopin');
 }
 
 function onPreEndSong() {

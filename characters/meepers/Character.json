@@ -1,0 +1,129 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -250,
+		"y": -160
+	},
+	"globalOffset": {
+		"x": 100,
+		"y": 230
+	},
+	"healthbarColor": "#DD0024",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": 4,
+			"y": 0,
+			"anim": "meep_missr",
+			"loop": false,
+			"name": "singRIGHTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "meep_down",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "meep_missl",
+			"loop": false,
+			"name": "singLEFTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 2,
+			"y": -4,
+			"anim": "meep_up",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "meep_idle",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "meep_hey",
+			"loop": false,
+			"name": "hey",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "meep_missd",
+			"loop": false,
+			"name": "singDOWNmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 5,
+			"y": -1,
+			"anim": "meep_right",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 5,
+			"y": -3,
+			"anim": "meep_missu",
+			"loop": false,
+			"name": "singUPmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -5,
+			"y": 0,
+			"anim": "meep_left",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 65,
+			"y": 9,
+			"anim": "meep_dodge",
+			"loop": false,
+			"name": "dodge",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 2.1
+}

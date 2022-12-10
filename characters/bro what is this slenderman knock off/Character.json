@@ -18,6 +18,15 @@
 			"anim": "scrapped-sonic-phasetwo idle",
 			"loop": false,
 			"name": "idle",
+			"framerate": 13
+		},
+		{
+			"indices": null,
+			"x": 9,
+			"y": -8,
+			"anim": "scrapped-sonic-phasetwo right",
+			"loop": false,
+			"name": "singRIGHT",
 			"framerate": 24
 		},
 		{
@@ -31,11 +40,11 @@
 		},
 		{
 			"indices": null,
-			"x": 9,
-			"y": -8,
-			"anim": "scrapped-sonic-phasetwo right",
+			"x": 60,
+			"y": 0,
+			"anim": "scrapped-sonic-phasetwo left",
 			"loop": false,
-			"name": "singRIGHT",
+			"name": "singLEFT",
 			"framerate": 24
 		},
 		{
@@ -45,15 +54,6 @@
 			"anim": "scrapped-sonic-phasetwo up",
 			"loop": false,
 			"name": "singUP",
-			"framerate": 24
-		},
-		{
-			"indices": null,
-			"x": 60,
-			"y": 0,
-			"anim": "scrapped-sonic-phasetwo left",
-			"loop": false,
-			"name": "singLEFT",
 			"framerate": 24
 		}
 	],
