@@ -26,7 +26,7 @@ case 'too-slow':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOG CODE\nJackie.exe\n\nARTWORK\nCherribun\nComgaming\n\nMUSIC\nMarStarBro\nSaster\n\nCHARTING\nWilde';
     creds.x = 510.3;
 case 'too-slow-encore':
-    creds.text = 'Credits\n\nPORTERS\n[504]brandonn\n\nOG CODE\nJackie.exe\n\nARTWORK\nCherribun\n[504]brandon\n\nCOMPOSERS\nStarMoBro\nSaster';
+    creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOG CODE\nJackie.exe\n\nARTWORK\nCherribun\nsoushi0210\nGoshaCher360\n\nCOMPOSERS\nStarMoBro\nSaster';
     creds.x = 502.3;
 case 'too-slow-sillycore':
     creds.text = 'Credits\n\nCODERS\n[504]brandonn\n\nARTWORK\nCherribun\nall of the people that made\nthe art i put in the funni anims\n\nCOMPOSERS\nStarMoBro\nSaster';
@@ -47,7 +47,7 @@ case 'milk':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\n\nOLD CODE\nJackie.exe\n\nCHARTING\nNiffirg\n\nARTWORK\nComgaming_Nz\nStankfield\n\nMUSIC\nSqueak';
     creds.x = 521.8;
 case 'milk-sillycore':
-    creds.text = 'Credits\n\nCODERS\n[504]brandon\n\nCHARTING\nNiffirig\n\nARTWORK\nComgaming_Nz\nStankfield\nSunkey.mpeg Team\nbro-tonic\nSonic stuff\nRodri117 \nMUSIC\nSqueak\n[504]brandon';
+    creds.text = 'Credits\n\nCODERS\n[504]brandon\n\nCHARTING\nNiffirig\n\nARTWORK\nComgaming_Nz\nStankfield\nSunkey.mpeg Team\nbro-tonic\nSonic stuff\nRodri117\n\nMUSIC\nSqueak\n[504]brandon';
     creds.x = 521.8;
 case 'confronting-yourself':
     creds.text = 'Credits\n\nPORTERS\n[504]brandon\nJustARock\n\nOLD CODE\nJotaMr\nJos9199\nMorenoTheCapuccinoChugger\n\nCOMPOSERS\nSaster\nTheKylevi\nPivelink\n\nCHARTERS\nRickyMania22';
